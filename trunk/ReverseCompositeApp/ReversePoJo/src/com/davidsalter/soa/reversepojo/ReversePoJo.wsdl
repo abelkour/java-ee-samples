@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="ReversePoJo" targetNamespace="http://reversepojo.soa.davidsalter.com/ReversePoJo/"
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://reversepojo.soa.davidsalter.com/ReversePoJo/" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+    <types/>
+    <message name="ReversePoJoOperationRequest">
+        <part name="part1" type="xsd:anyType"/>
+    </message>
+    <message name="ReversePoJoOperationResponse">
+        <part name="part1" type="xsd:anyType"/>
+    </message>
+    <portType name="ReversePoJoInterface">
+        <operation name="ReversePoJoOperation">
+            <input name="input1" message="tns:ReversePoJoOperationRequest"/>
+            <output name="output1" message="tns:ReversePoJoOperationResponse"/>
+        </operation>
+    </portType>
+</definitions>

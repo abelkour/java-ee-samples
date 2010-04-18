@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<POJOs xmlns='http://xml.netbeans.org/schema/POJOConfig' version='0.4'>
+	<POJOProviders>
+		<POJOProvider>
+			<class-name>ReversePoJo</class-name>
+			<package>com.davidsalter.soa.reversepojo</package>
+			<update-wsdl-during-build>false</update-wsdl-during-build>
+			<wsdl-location>src/com/davidsalter/soa/reversepojo/ReversePoJo.wsdl</wsdl-location>
+		</POJOProvider>
+	</POJOProviders>
+</POJOs>
