@@ -1,0 +1,1 @@
+Java Samples - primarily Java EE 5 and Java EE 6.
